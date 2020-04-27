@@ -1,0 +1,19 @@
+# https://taskfile.dev
+version: '2'
+
+tasks:
+  install:
+    # dir: server
+    cmds:
+      - npm install
+  dev:
+    desc: Run the Fastify dev server
+    # dir: server
+    cmds:
+      - npm run dev
+
+  debug:
+    desc: Run the Fastify dev server in debug mode
+    # dir: server
+    cmds:
+      - npm run debug

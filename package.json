@@ -1,0 +1,36 @@
+{
+  "name": "@heslin/create-fastify",
+  "version": "1.0.0",
+  "description": "Generate a fastify project with all of my bells and whistles",
+  "main": "cmd.js",
+  "bin": {
+    "create-fastify": "cmd.js"
+  },
+  "scripts": {
+    "test": "node test",
+    "lint": "standard --fix"
+  },
+  "author": {
+    "name": "Todd Heslin",
+    "email": "todd@beingremarkable.me",
+    "url": "https://github.com/toddheslin)"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fastify-cli": "^1.4.0",
+    "generify": "^4.1.0",
+    "write-pkg": "^4.0.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1",
+    "tap": "^14.10.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddheslin/fastify-create.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toddheslin/fastify-create/issues"
+  },
+  "homepage": "https://github.com/toddheslin/fastify-create#readme"
+}
