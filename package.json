@@ -1,6 +1,6 @@
 {
   "name": "@heslin/create-fastify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a fastify project with all of my bells and whistles",
   "main": "cmd.js",
   "bin": {
@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toddheslin/fastify-create.git"
+    "url": "git+https://github.com/toddheslin/create-fastify.git"
   },
   "bugs": {
-    "url": "https://github.com/toddheslin/fastify-create/issues"
+    "url": "https://github.com/toddheslin/create-fastify/issues"
   },
-  "homepage": "https://github.com/toddheslin/fastify-create#readme"
+  "homepage": "https://github.com/toddheslin/create-fastify#readme"
 }
